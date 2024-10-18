@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+      @apply text-gray-600 bg-[#f1f5f1] ;
+    }
+    tr{
+      @apply bg-white;
+    }
+    td{
+      @apply px-1 border-2 text-sm;
+    }
+    th{
+      @apply py-2 border-2 text-sm font-semibold ;
+    }
+    table{
+      @apply w-full my-4 text-center;
+    }
+}
+.hero-section {
+    background-image: url('./assets/img/cover2.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height:80vh; 
+    display: flex;
+    justify-content: right;
+    padding:0 4rem;
+    align-items: center;
+    background-attachment: fixed;
+  }
+.banner-section {
+    background-image: url('./assets/img/b2.jpg'); 
+    background-size: contain; 
+    background-position: center; 
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+    padding: 0 4rem;
+    align-items: center;
+  }
+  
